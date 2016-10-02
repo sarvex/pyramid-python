@@ -3,7 +3,7 @@ import os
 from setuptools import setup, find_packages
 
 here = os.path.abspath(os.path.dirname(__file__))
-with open(os.path.join(here, 'README.txt')) as f:
+with open(os.path.join(here, 'README.md')) as f:
   README = f.read()
 with open(os.path.join(here, 'CHANGES.txt')) as f:
   CHANGES = f.read()
@@ -23,7 +23,7 @@ tests_require = [
 ]
 
 setup(name='pyramid_python',
-      version='0.0',
+      version='0.1',
       description='pyramid_python',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
@@ -32,9 +32,9 @@ setup(name='pyramid_python',
         "Topic :: Internet :: WWW/HTTP",
         "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
       ],
-      author='',
-      author_email='',
-      url='',
+      author='Sarvex Jatasra',
+      author_email='sarvex.jatasra@gmail.com',
+      url='sarvex.github.io',
       keywords='web pyramid pylons',
       packages=find_packages(),
       include_package_data=True,
